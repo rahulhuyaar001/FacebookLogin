@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins';
+}
+
+body{
+    background: linear-gradient(90deg,rgb(13, 73, 114) ,rgb(31, 91, 255));
+}
+.login-form h1{
+    font-size: 20px;
+
+}
+
+.login-form{
+    width: 400px;
+    background-color: white;
+    padding: 30px;
+    margin: 4% auto;
+    padding-right: 35px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    
+}
+
+.input{
+    width: 100%;
+    padding: 7px;
+    margin-top: 23px;
+    background-color: rgb(236, 236, 236);
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+.inputs{
+    width: 100%;
+    padding: 5px;
+    margin-top: 23px;
+    background-color: rgb(236, 236, 236);
+    border: none;
+    outline: none;
+    border-radius: 5px;
+
+
+}
+
+.inputp{
+    padding-right: 145px;
+    background: none;
+    border: none;
+    outline: none;
+}
+.hero{
+    font-size: 15px;
+    font-weight: 500;
+}
+.gender{
+    display: flex;
+    justify-content: space-between;font-size: 13px;
+    font-weight:600;
+}
+.cont{
+  font-size: 10px;
+  font-weight: 500;
+  margin-top: 7px;
+}
+
+p{
+    font-size: 13px;
+    margin-top: 5px;
+}
+
+.cont a{
+    text-decoration: none;
+    color: rgb(10, 113, 248);
+}
+
+.login-form button{
+    text-align: center;
+    background-color: rgb(10, 113, 248);
+    padding: 7px;
+    font-weight: 500;
+    border-radius: 4px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #fff;
+    border: none;
+    width: 100%;
+}
